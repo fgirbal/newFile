@@ -1,0 +1,85 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3603013360" file="/Users/franciscogirbaleiras/Documents/MATLAB/newFile.prj" location="/Users/franciscogirbaleiras/Documents/MATLAB" name="newFile" target="target.mlapps" target-name="Package App">
+    <param.appname>newFile</param.appname>
+    <param.authnamewatermark>Francisco Girbal Eiras</param.authnamewatermark>
+    <param.email>francisco.girbal@gmail.com</param.email>
+    <param.company>Tecnico Lisbon</param.company>
+    <param.icon>${PROJECT_ROOT}/newFile_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/newFile_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/newFile_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/newFile_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>Create new files easily!</param.summary>
+    <param.description>Simplifies the process of creating a new file in Matlab with an adequate header template (file + author information).</param.description>
+    <param.screenshot>/Users/franciscogirbaleiras/Downloads/screenshot1.png</param.screenshot>
+    <param.version>1.0.1</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/franciscogirbaleiras/Documents/MATLAB</param.output>
+    <param.guid>a593c408-fb2e-490c-bb5a-44b7ced4d7a1</param.guid>
+    <unset>
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/newFile.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/franciscogirbaleiras/Documents" name="MATLAB" optional="false">/Users/franciscogirbaleiras/Documents/MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2016a.app</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.12.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
